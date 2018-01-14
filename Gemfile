@@ -17,6 +17,7 @@ gem "rolify"
 gem "font-awesome-rails"
 gem "momentjs-rails", ">= 2.9.0"
 gem "slim-rails"
+gem "materialize-sass"
 
 # nested forms
 gem "cocoon"
@@ -36,6 +37,7 @@ gem "uglifier", ">= 1.3.0"
 
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem "webpacker"
+gem "i18n-js"
 gem "jquery-rails"
 
 # Follow code standards!
@@ -43,6 +45,9 @@ gem "rubocop", require: false
 gem "rubocop-rails"
 gem "rubocop-rspec"
 
+# Other
+gem "i18n_generators"
+gem "annotate"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.5"

@@ -11,5 +11,11 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require turbolinks
+//= require jquery
+//= require cocoon
+//= require moment
+//= require moment/es
+//= require i18n
+//= require i18n/translations
+//= require materialize
 //= require_tree .
